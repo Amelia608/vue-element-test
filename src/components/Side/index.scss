@@ -1,0 +1,16 @@
+.el-menu-demo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 220px;
+  box-sizing: border-box;
+
+  .el-menu-item a {
+    color: #303133;
+  }
+
+  .el-menu-item.is-active a {
+    color: #409EFF;
+  }
+}
